@@ -1,6 +1,7 @@
 package nair_khachatryan;
 
 
+import nair_khachatryan.animal.Animal;
 import nair_khachatryan.animal.Bird;
 import nair_khachatryan.animal.Cat;
 import nair_khachatryan.shape.Circle;
@@ -14,9 +15,9 @@ import nair_khachatryan.vehicle.Vehicle;
 public class Main {
     public static void main(String[] args) {
 
-        Bird bird = new Bird();
+        Animal bird = new Bird();
         bird.sound();
-        Cat cat = new Cat();
+        Animal cat = new Cat();
         cat.sound();
 
         Vehicle bicycle = new Bicycle();
